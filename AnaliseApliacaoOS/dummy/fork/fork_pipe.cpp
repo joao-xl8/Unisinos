@@ -14,7 +14,7 @@ int main(int argc, char *arcv[])
     // fd[0] - read
     // fd[1] - write
 
-    if (pipe(fd) == -1)
+    if (pipe(fd) == -1) // pipe() is used for one-way communiation channel between processes
     {
         return 1;
     }
