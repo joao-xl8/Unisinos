@@ -29,6 +29,11 @@ int main()
     std::cout << "Your long string was: " << string << std::endl;
     std::cin.get();
 
+    int x;
+    std::cout << "What is the result of 3 x 5: ";
+    std::cin >> x;
+    std::cout << std::endl;
+
     // file read
     std::ifstream fin("text.txt");
     std::string line;
