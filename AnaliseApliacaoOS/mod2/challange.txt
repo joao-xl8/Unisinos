@@ -1,0 +1,55 @@
+Para exercitarmos os conceitos estudados até o momento, realizaremos uma 
+atividade prática. 
+Nesta atividade, você deverá:
+
+Desenvolver um programa que utilize as primitivas fork e exec juntas. 
+Este programa implementará atividades diferentes para os processos pai 
+e filho.
+O processo pai ficará responsável por apresentar a transposta de uma 
+matriz de tamanho 10x10 previamente inicializada (você deve popular a  
+matriz original). Dica: https://en.wikipedia.org/wiki/TransposeLinks to 
+an external site..
+O processo filho ficará responsável pela leitura de uma página de notícias 
+de grande circulação para encontrar uma determinada palavra. Dica: utilize 
+os comandos: curl para baixar a página, egrep para encontrar a palavra 
+usando uma expressão regular; e wc para contar a quantidade de vezes que 
+a palavra desejada aparece na página escolhida. A primitiva exec será 
+utilizada no trecho de código executado pelo processo filho.
+Para desenvolver esta atividade, você deverá utilizar o ambiente Linux. 
+Para isso, faça download da imagem da máquina virtual que está disponível 
+neste módulo. Siga as instruções disponibilizadas no arquivo intitulado: 
+“Como Utilizar a Máquina Virtual?”. Se você já possui Linux instalado em 
+seu computador, não é necessário o uso da máquina virtual.
+
+A avaliação da atividade envolve o uso correto das primitivas estudadas, 
+bem como o desenvolvimento correto das demais partes que compõem o programa 
+solicitado. O programa deverá compilar e executar corretamente. É 
+importante que o arquivo contenha seu nome e seu registro acadêmico. 
+Você pode inserir essas informações na forma de comentário no início 
+do arquivo. Se achar necessário, faça uso de comentários para documentar 
+o código.
+
+Você deverá entregar o programa desenvolvido (código fonte).
+
+Juntamente com sua implementação, você deve enviar um vídeo de 3 minutos 
+no máximo, fazendo a compilação e a execução do seu programa, realizando 
+as operações implementadas e narrando o que foi feito e o resultado. 
+Reforçando: MÁXIMO 3 MINUTOS! Faça uma captura de tela narrada, é bem 
+simples 😊
+
+A entrega do vídeo e do código fonte são obrigatórias, faltando o código 
+fonte ou o vídeo a tarefa não será avaliada e terá nota zerada.
+
+O que devo entregar?
+
+Você deve entregar um arquivo compactado contendo os arquivos utilizados 
+e o vídeo.
+
+Atenção!
+
+Trabalhos copiados da internet ou de outros colegas levarão nota zero 
+automaticamente (todos os envolvidos). Além disso, trabalhos entregues 
+sem o vídeo solicitado ou com o vídeo de mais de 3 minutos não serão 
+avalidados e levarão nota zero.
+
+Boa sorte!
